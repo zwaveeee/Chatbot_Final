@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "b42687e7639f42e5933b51ee92c06933",
+    "question": "Latest Announcement",
+    "answer": "",
+    "count": 152,
+    "status": "pending",
+    "created_at": "2026-07-15 13:32:30",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "eef90810ef624a388f9ce001cd305ee5",
+    "question": "enrollmement",
+    "answer": "",
+    "count": 19,
+    "status": "approved",
+    "created_at": "2026-07-15 13:32:30",
+    "updated_at": "2026-07-20 14:20:59"
+  },
+  {
+    "id": "cec0499d48ca48178ac7c1303d91ab6f",
+    "question": "enrollment",
+    "answer": "",
+    "count": 300,
+    "status": "pending",
+    "created_at": "2026-07-15 13:32:30",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "where is the clarification about enrollment?",
+      "I want you to ask first, \"What specifically about enrolment you wanted to know?\"",
+      "I want you to ask me that everytime the user asks any unclear questions specially with double meanings or question topics that is correlated to enrollment",
+      "do you understand this: I want you to ask me that everytime the user asks any unclear questions specially with double meanings or question topics that is correlated to enrollment?",
+      "can you apply it every unclear questions about school inquiries only",
+      "okay good let's try, I wanna ask registration",
+      "**What is the registration schedule for this semester**?",
+      "I wanna ask about enrollment",
+      "do you remember what I said earlier about enrollment?",
+      "What are the steps for re-enrollment?",
+      "registration",
+      "enrollment]",
+      "nevermind, I wanna ask about registration",
+      "how to enroll tapos magluto ng itlog?",
+      "I need you to answer what is being asked like how to enroll because it belongs to the scope of the SHSWBES inquiries even if there is an out of context. just answer the in context then if you detect an out of context just state what you said that you can't answer about it because you only answer SHSWBES inquiries.",
+      "how to enroll and how to cook an egg?",
+      "-state in english if the prompt is english then state in tagalog if the prompt of the user is tagalog, then the chatbot must/should block to answer more, I need the bot to answer all SHSWBES related inquiries only.\n\n-I need you to answer what is being asked like how to enroll because it belongs to the scope of the SHSWBES inquiries even if there is an out of context. just answer the in context then if you detect an out of context just state what you said that you can't answer about it because you only answer SHSWBES inquiries.",
+      "how to enroll, who are the master teachers and how to cook an egg",
+      "how to enroll and roll an egg?",
+      "are you sure about the enrollment?",
+      "hello how can I enroll",
+      "I want to know about the prerequisite of the enrolment and where will I find the school and can I apply as a cook in the canteen?"
+    ]
+  },
+  {
+    "id": "c6e825e732524a63b85e9860a1becf3b",
+    "question": "How to register",
+    "answer": "",
+    "count": 17,
+    "status": "pending",
+    "created_at": "2026-07-15 13:32:30",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "do you know how to cook asian food and do you know about NU Manila?",
+      "How to replace a lost ID"
+    ]
+  },
+  {
+    "id": "afb723ea828e44269a3e1c941b80025b",
+    "question": "tell me about the picture",
+    "answer": "",
+    "count": 13,
+    "status": "pending",
+    "created_at": "2026-07-15 13:32:30",
+    "updated_at": "2026-07-16 15:02:37"
+  },
+  {
+    "id": "906c91c96805454f888904419851c2b8",
+    "question": "Tell me about the school",
+    "answer": "",
+    "count": 37,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:34",
+    "updated_at": "2026-07-20 20:09:47",
+    "synonyms": [
+      "nexttt tell me what you lack"
+    ]
+  },
+  {
+    "id": "23e542bc9bea4ecd960980fa305ba0b1",
+    "question": "school forms request",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "8fc456f581464ad18d0794db966e93f6",
+    "question": "apply who",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "f313f59a7d234a939c4d145c43f06c6b",
+    "question": "aplay hu",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "6322b08c58b44f05868ecd35bfeed502",
+    "question": "hu applay",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "fa20870f4fc44b0ea040782518f0f8e0",
+    "question": "switching strands",
+    "answer": "",
+    "count": 14,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "strand"
+    ]
+  },
+  {
+    "id": "56d916d0cf5444daa6a36be4c4df40c8",
+    "question": "who is the principal",
+    "answer": "",
+    "count": 44,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "who is the special science",
+      "who is the king of pop?",
+      "the answer for who is the king of pop is papa mo",
+      "I thought Mr. edwin is the assistant principal?",
+      "I thought Mr edwin is the assistant principal?"
+    ]
+  },
+  {
+    "id": "276f538e30764c79a7e6f106613ba19c",
+    "question": "is sir tolentino one of the teachers in math?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "4cb9b693964446edbaefd83e1e15ab09",
+    "question": "who handles physics course\\",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "07c45a1723d44aeb8736772aff2a4bd8",
+    "question": "mr gomez handles physics courses",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "16b3b85ec63444dd8d9dc95ce8e75aba",
+    "question": "when was the school founded?",
+    "answer": "",
+    "count": 12,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "e62f5e6852e54f2599e7640353de3618",
+    "question": "when was the school built/",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "83d2909e81ef43f19762a19be1ed234f",
+    "question": "WHEN WAS THE SCHOOL BUILT",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "c834af3145c9402ca971511fe1b26f00",
+    "question": "founded",
+    "answer": "",
+    "count": 17,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "do you know the history of NU manila?"
+    ]
+  },
+  {
+    "id": "5cf6278030334780bd8216bee4d10139",
+    "question": "school founded",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "2a8ae915ec3247bdbb86b1c15bc65acf",
+    "question": "when school founded",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "43a3bab4cc9746fd9b86e0cc8b73acbf",
+    "question": "when school built",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "aefe8412fef14edba57edd99dba327f9",
+    "question": "can i change strands",
+    "answer": "",
+    "count": 30,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "d26405c591db4421b3a60d094be4fa6e",
+    "question": "change strand",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "6685c6540e2447418b78175889214664",
+    "question": "can i change strange",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "eda2804c1e1448319c06d4e08d9bb240",
+    "question": "can i change strand",
+    "answer": "",
+    "count": 21,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "can you learn to the user"
+    ]
+  },
+  {
+    "id": "c53bb5c7d1b946b8b7ca4b4321edc599",
+    "question": "can i switch strand",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "1f317a9c53ee4c67a4e4bb1998b5cfc3",
+    "question": "enrollment prerequisites",
+    "answer": "",
+    "count": 7,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "prerequisite"
+    ]
+  },
+  {
+    "id": "3cc5f9f1ccc04aaa81853ccd4012fa26",
+    "question": "enrollment requirement",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "ba1a7b59dc8e4d1c9e303052c349ecfa",
+    "question": "enrollment requirements",
+    "answer": "",
+    "count": 24,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "bdb88ce5271f4b948cf92316d1732d63",
+    "question": "who can apply",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "98d337091a6b43eea3b0ecec2e146a2c",
+    "question": "eligible applicants",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "1a9b985805e94d7b82f3580e091c3bfc",
+    "question": "who are eligible applicants",
+    "answer": "",
+    "count": 20,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "who are the teachers and staff"
+    ]
+  },
+  {
+    "id": "d9d112f9bf7f467781ca28e83edd7ced",
+    "question": "what are the enrollment prerequisites",
+    "answer": "",
+    "count": 29,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "What are the available strands or tracks in SHSWBES?",
+      "What are the roles and responsibilities of each staff member?",
+      "What are the requirements for enrolling in an English course?"
+    ]
+  },
+  {
+    "id": "b301b7f31b9149d19bae0aa0a72e9574",
+    "question": "enrollment process",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "2c1591f7258345e3957e89d2f1a6f049",
+    "question": "enrollment period",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "a4df4694924d4632ae33d249b8e879a0",
+    "question": "enrollment form",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "d4eb5af0dfd84a85801092fd723a18b8",
+    "question": "Where can I get the enrollment form?",
+    "answer": "",
+    "count": 18,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "8e9127f2ae984b51a471801a8c52db05",
+    "question": "process for transferees",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "886eaee0ebb1416dbba583b7f48a9edb",
+    "question": "steps for migrating students",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "c3dbbb943e9c4c06ad990fe51a613298",
+    "question": "transferee process",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "b5d13558ba9f41d6a5d397df32b3ba3c",
+    "question": "tranferi process",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "a15398547a454cf69fc52cbafada6a01",
+    "question": "transferi procidures",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "bab7380f54ba4c98b606b1c4080ec957",
+    "question": "paano ako mageenroll",
+    "answer": "",
+    "count": 9,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "alam mo ba pano magluto",
+      "pano magenrol"
+    ]
+  },
+  {
+    "id": "1d5e7d8d62f044d196ce0ecbd2c44ce0",
+    "question": "enrollment prerequisite",
+    "answer": "",
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "26f05ae1fa5b41f6a5a87d5661d179a7",
+    "question": "Process for transferees / late enrollees",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "844948a6f6a646edaa66c209b4cbabdd",
+    "question": "about school",
+    "answer": "",
+    "count": 16,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "I want to learn all about the school",
+      "I want to know about the school address, tuition fee and how to cook sinigang"
+    ]
+  },
+  {
+    "id": "5691f9d947a9447c9f70a31d0daa06e8",
+    "question": "apply",
+    "answer": "",
+    "count": 30,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "8df155e8165f471f902818acf2f44f65",
+    "question": "Class size per section",
+    "answer": "",
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "quantity per section"
+    ]
+  },
+  {
+    "id": "915bb6b3f93c44df933ce07d5a00c096",
+    "question": "Scholarships",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "b2d5854096c24dd29e318b1577033527",
+    "question": "I want to ask about the enrollment requirement",
+    "answer": "",
+    "count": 41,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "I want to know about the prerequisite",
+      "i want to know about the registrar",
+      "then after this conversation, if the system detects that there is no other questions, the bot must ask \"Is there anything else you would like to ask?\" or \"Let me know if there’s anything else you need assistance with.\" then if the user states any form of \"I'm good, I'm done, That's all I wanna ask\" then the bot must close with a polite way of thanking the user like “Thank you for using UniWise. If you have any further questions, feel free to ask.” then flash a qr code with a label of survey feedback form for more future improvement of the chatbot if ever.",
+      "I want to know about the graduation",
+      "I want to learn english"
+    ]
+  },
+  {
+    "id": "0b62fae9f436407191ecc24506a6b59f",
+    "question": "What are the enrollment requirements?",
+    "answer": "",
+    "count": 24,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "07507b35c17147bbb956aea1e539efdd",
+    "question": "Who can apply?",
+    "answer": "",
+    "count": 72,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "31c9bbde52fb48cfabfd2dd1ecd696da",
+    "question": "1+1",
+    "answer": "",
+    "count": 17,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "8567e6d53df04ac4992bbc3d8cd736e5",
+    "question": "enroll",
+    "answer": "",
+    "count": 75,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "4837eb25f84c4aacb849f23ee10fdf17",
+    "question": "good mral",
+    "answer": "",
+    "count": 43,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "gooodd",
+      "good",
+      "gooood"
+    ]
+  },
+  {
+    "id": "ee4920c4bc804180be66e164f5172896",
+    "question": "Paano mag-request ng change of strand",
+    "answer": "",
+    "count": 25,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "Paano makakuha ng academic clearance?",
+      "No more questions, thanks!"
+    ]
+  },
+  {
+    "id": "42fbf2b95e044aea9f983cc6b948600a",
+    "question": "paano mag-enroll?",
+    "answer": "",
+    "count": 13,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "gusto ko malaman tungkol sa lokasyon ng skwelahan, yung tuition fee tapos pano mag luto ng sinigang"
+    ]
+  },
+  {
+    "id": "6e847a25ccd643879e3b63cf882ddf7d",
+    "question": "paano kumain",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "b5ce304289cd49bb979c029aaea19d53",
+    "question": "good morl",
+    "answer": "",
+    "count": 8,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "okay more"
+    ]
+  },
+  {
+    "id": "21edf25660bc43d492de2f13faa19b48",
+    "question": "good moral",
+    "answer": "",
+    "count": 18,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "88afeb90e8b244d0bec6f8badeeb3932",
+    "question": "how to enroll?",
+    "answer": "",
+    "count": 12,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "8c660894c97f4d4f8139748b706e551a",
+    "question": "how to enroll",
+    "answer": "",
+    "count": 12,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "d06b2fd22bb24b8cb93145383553e1b8",
+    "question": "Engr. Marlon Arevalo",
+    "answer": "",
+    "count": 20,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "it is engr marlon arevalo",
+      "is engr.Arevalo a master teachers?",
+      "I'm talking about Engr.Arevalo"
+    ]
+  },
+  {
+    "id": "c05f351f52f74d29bb8758b48e89f711",
+    "question": "research adviser",
+    "answer": "",
+    "count": 18,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "e519c84fafa04af2b3e61b369a8aa16f",
+    "question": "Is there a fee for requesting certificates or school forms?",
+    "answer": "",
+    "count": 27,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "tuition",
+      "is there organizations?",
+      "be firm you said earlier \"I made a mistake earlier. The Context does not explicitly state that tuition fees are free. In fact, the Context only mentions that public schools do not collect fees for issuance of school records, certificates, or forms, but it does not mention tuition fees specifically.\""
+    ]
+  },
+  {
+    "id": "5dc13a725f8d4f528a5e6886ce9cf09a",
+    "question": "How do I request the use of school facilities?",
+    "answer": "",
+    "count": 16,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "do you have any idea outside school inquiries?"
+    ]
+  },
+  {
+    "id": "5c908f07dd6e4fd688fa92a91b195c46",
+    "question": "How do I request school forms?",
+    "answer": "",
+    "count": 15,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42",
+    "synonyms": [
+      "how do i access Feedback.html?"
+    ]
+  },
+  {
+    "id": "9b681e95b8d4402cbf7934cbca831696",
+    "question": "How do I request a Good Moral Certificate?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "02ece4e745f8413d9400e09a0b18bdd5",
+    "question": "How do I request a Certificate of Enrollment?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "cbe759b7a11549ac99db1a6ad3b33000",
+    "question": "who was the research adviser who created the school website for the campers?",
+    "answer": "",
+    "count": 42,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "who are the teachers",
+      "who is the adviser who created the website?"
+    ]
+  },
+  {
+    "id": "f98e3bf34d1449ae9950187a34c42195",
+    "question": "lates announcement",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "70023fea53ad4286a0f94c53bf266be2",
+    "question": "how to apply",
+    "answer": "",
+    "count": 36,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "5ed8d592c21c427997846347ac25f7fe",
+    "question": "yes",
+    "answer": "",
+    "count": 25,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "yes then send me related questions or topics or just bold it at the bottom",
+      "I wanna test if you understand yes or no/ oo o hindi answer by the user, ask me questions that can be answered by yes or no about SHSWBES inquiries only",
+      "yes I would like to know"
+    ]
+  },
+  {
+    "id": "24d537e185d746d6b84627458476e320",
+    "question": "enrol",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "53783a3c91fc46dda3c2a3e0de99f763",
+    "question": "f137",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "6f836bd9a68a4949857721a816be9c28",
+    "question": "latest announcemnt",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "904ef954cec240479b8b2158b4a679ef",
+    "question": "What happens if I have failing marks?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "0b6a00aee0ff4d638bc517df36b983a1",
+    "question": "school address",
+    "answer": "",
+    "count": 53,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "do you know the address of the school and the tuition fee and also cook chicken curry?"
+    ]
+  },
+  {
+    "id": "1dbbbb6e48964679b8db3b8a19d8819d",
+    "question": "enrollment?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "4991016777c945cfbd5b07665b244ccc",
+    "question": "latest announcement in the registrar?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "4f4bc6680be4403a92a344a905397739",
+    "question": "pano magapply as worker?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "cf8cd4f4debc482e9c31aa8d0d9c0ed3",
+    "question": "hello",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "b14f10c5c79b4cf59c4cb6d4b2124b01",
+    "question": "Can I switch strands in between semesters?",
+    "answer": "",
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-15 13:34:38",
+    "updated_at": "2026-07-21 19:05:42"
+  },
+  {
+    "id": "313fa30ce14042a99b45ca6c8e90a8c7",
+    "question": "where is the school located?",
+    "answer": "",
+    "count": 75,
+    "status": "pending",
+    "created_at": "2026-07-15 14:16:16",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "what is the theme color of the school?",
+      "okay, what is the theme color of the school?",
+      "tuition is part of the SHSWBES school inquiries",
+      "just state the SHSWBES is a public school and it is tuition/miscellaneous is free",
+      "where is the clarification?",
+      "I thought Ms.kynah darvin is not the school head?",
+      "What are the school's office hours?"
+    ]
+  },
+  {
+    "id": "15d3b87d1ede4cc9874e2282e02bb971",
+    "question": "gusto ko in tagalog",
+    "answer": "",
+    "count": 14,
+    "status": "pending",
+    "created_at": "2026-07-15 14:17:40",
+    "updated_at": "2026-07-21 13:55:11",
+    "synonyms": [
+      "gusto ko malaman tungkol sa graduation"
+    ]
+  },
+  {
+    "id": "0dd1453d16f7467cacaccaaef0f1adfe",
+    "question": "san located yung school",
+    "answer": "",
+    "count": 19,
+    "status": "pending",
+    "created_at": "2026-07-15 14:17:40",
+    "updated_at": "2026-07-16 15:02:37"
+  },
+  {
+    "id": "953c01f777bd47f09b6cc98fc509d6f3",
+    "question": "where is the school",
+    "answer": "",
+    "count": 45,
+    "status": "pending",
+    "created_at": "2026-07-15 14:17:40",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "where is the survey",
+      "what time is the office hours?",
+      "What time is the office hours"
+    ]
+  },
+  {
+    "id": "96b1a4d2a2a1432fbaa38ceec1dcddce",
+    "question": "san located yung school?",
+    "answer": "",
+    "count": 8,
+    "status": "pending",
+    "created_at": "2026-07-15 14:26:58",
+    "updated_at": "2026-07-16 15:02:37"
+  },
+  {
+    "id": "8fe3da15b7ef47e9b73c363e0bf28aa1",
+    "question": "marunong ka ba magtagalog?",
+    "answer": "",
+    "count": 15,
+    "status": "pending",
+    "created_at": "2026-07-15 18:14:57",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "marunong ka rin ba magtagalog?",
+      "marunong ka rin ba sa tagalog response?"
+    ]
+  },
+  {
+    "id": "a054b3ea9c2a456a9f3b1628980c3ff2",
+    "question": "marunong ka magtagalog?",
+    "answer": "",
+    "count": 21,
+    "status": "pending",
+    "created_at": "2026-07-15 19:09:06",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "anong language ang alam mo?"
+    ]
+  },
+  {
+    "id": "41ee5610364e44aa98cbc1b581c2a382",
+    "question": "About the School",
+    "answer": "",
+    "count": 47,
+    "status": "pending",
+    "created_at": "2026-07-16 10:59:10",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "I want to know the recipe about chicken stew",
+      "\"What specifically would you like to know about strand?\" bold the strand",
+      "I said if the user asked about any unclear questions like one word, the bot should and must clarify what specifically you want to know about \"the unclear word\".",
+      "okay nevermind, I wanna ask about the strands",
+      "are you sure about the lists?",
+      "the complete information about the specific teachers or staff members' personalities is in the context"
+    ]
+  },
+  {
+    "id": "bd5f6e91509e4fc390163ecc3417c670",
+    "question": "about SHSWBES",
+    "answer": "",
+    "count": 13,
+    "status": "pending",
+    "created_at": "2026-07-16 15:02:37",
+    "updated_at": "2026-07-21 19:12:53",
+    "synonyms": [
+      "You should be sure"
+    ]
+  },
+  {
+    "id": "1376a20eefd5473faabea110778784b2",
+    "question": "what to do if my id is lost",
+    "answer": "",
+    "synonyms": [],
+    "count": 5,
+    "status": "pending",
+    "created_at": "2026-07-16 20:13:08",
+    "updated_at": "2026-07-17 15:33:13"
+  },
+  {
+    "id": "3f31624a8950439e8c52a9b5448458b7",
+    "question": "continue",
+    "answer": "",
+    "synonyms": [],
+    "count": 14,
+    "status": "pending",
+    "created_at": "2026-07-17 16:29:12",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "3df3424c508f48be99a8cc323d7dae2f",
+    "question": "what is the scope and limitation of this chatbot?",
+    "answer": "",
+    "synonyms": [],
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-19 16:05:23",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "9e3d801915c547b9b0bf5a7e37d550db",
+    "question": "it's yellow and green",
+    "answer": "",
+    "synonyms": [],
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-19 16:05:23",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "adf6e19312dd47d4a8658377ce56a066",
+    "question": "Have you ever heard of the book Song of Fire and Ice?",
+    "answer": "",
+    "synonyms": [
+      "do you have the lists of staffs?"
+    ],
+    "count": 16,
+    "status": "pending",
+    "created_at": "2026-07-19 16:05:24",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "b13ecbb537a246619896f0bd067a04c1",
+    "question": "nicee",
+    "answer": "",
+    "synonyms": [
+      "no, any affirment like good, nice, etc. means the user is satisfied with the response I want you to proceed with the:\n\nThank you for using UniWise. If you have any further questions, feel free to ask.\n\nWe appreciate your feedback in improving our services. Please click this link to access our Survey Feedback Form to help us improve.\nGoodbye!",
+      "if the systemm detects affirmity like good, goood, goood, nice, nce, niiiiceee something like that what response I need you to do again?",
+      "okayy nice even if I added a new chat the system must and should remember every detail I taught you, because I'm your AI trainer",
+      "very nice you're response is correct"
+    ],
+    "count": 37,
+    "status": "pending",
+    "created_at": "2026-07-19 16:47:03",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "0292ca85efd846f69f49f7a350d37f54",
+    "question": "remove the asterisk in the suggested questions (you can also ask)",
+    "answer": "",
+    "synonyms": [
+      "remove the asterisk in the you can also ask"
+    ],
+    "count": 18,
+    "status": "pending",
+    "created_at": "2026-07-19 16:47:04",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "c93336a62a134f0a999e5cfc2207a157",
+    "question": "yess goods",
+    "answer": "",
+    "synonyms": [],
+    "count": 10,
+    "status": "pending",
+    "created_at": "2026-07-19 16:47:04",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "d25342f3a4e2429b9dfa0f10d467a606",
+    "question": "that would be all, thank you!",
+    "answer": "",
+    "synonyms": [
+      "that would be all, thankyou",
+      "no, clarify first if \"Is there anything else you would like to ask?\" or \"Let me know if there’s anything else you need assistance with.\" then if the user states any form of \"I'm good, I'm done, That's all I wanna ask\" then the bot must close with a polite way of thanking the user like “Thank you for using UniWise. If you have any further questions, feel free to ask.”"
+    ],
+    "count": 26,
+    "status": "pending",
+    "created_at": "2026-07-19 16:47:05",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "498a437da25040c3ad50e6d264f4ee4e",
+    "question": "never mind the qr code just a link to redirect the actual survey form",
+    "answer": "",
+    "synonyms": [],
+    "count": 10,
+    "status": "pending",
+    "created_at": "2026-07-19 16:47:05",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "b32922a67cde4cb0afb2bcdddb0c8e74",
+    "question": "share the survey after thanking the user",
+    "answer": "",
+    "synonyms": [
+      "who are the master teachers?"
+    ],
+    "count": 44,
+    "status": "pending",
+    "created_at": "2026-07-19 17:24:11",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "ac7206a3835644a3922db1ce60df5ab7",
+    "question": "not always, but if the system detects mid conversation specially at the last part, It means the user is satisfied with your response. therefore what will you say?",
+    "answer": "",
+    "synonyms": [],
+    "count": 7,
+    "status": "pending",
+    "created_at": "2026-07-20 12:59:29",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "4e90a2ed737f4b1cbb784c05237d28b3",
+    "question": "No, just save it in the backend and remember what I taught you",
+    "answer": "",
+    "synonyms": [],
+    "count": 7,
+    "status": "pending",
+    "created_at": "2026-07-20 12:59:31",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "3d86040f201c40b79e68b53e3c970693",
+    "question": "no don't ask me",
+    "answer": "",
+    "synonyms": [],
+    "count": 7,
+    "status": "pending",
+    "created_at": "2026-07-20 12:59:32",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "b29ed3e161d447d498f14ae51121def3",
+    "question": "what did I say yesterday regarding unclear prompts",
+    "answer": "",
+    "synonyms": [],
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-20 13:27:36",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "64b2238749304f6cab96bcc202ccf36a",
+    "question": "yess exactly",
+    "answer": "",
+    "synonyms": [],
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-20 13:27:36",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "387d4123e24f49e68d4b76567201043f",
+    "question": "can you recognize images to or file?",
+    "answer": "",
+    "synonyms": [],
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-20 13:27:37",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "a2acf8d962434daba4b5220f2a9a8a8f",
+    "question": "recognize that",
+    "answer": "",
+    "synonyms": [],
+    "count": 5,
+    "status": "pending",
+    "created_at": "2026-07-20 14:04:27",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "b1d73405859a4e4cbe339f8286a8654e",
+    "question": "How many sections are available per grade level?",
+    "answer": "",
+    "synonyms": [],
+    "count": 5,
+    "status": "pending",
+    "created_at": "2026-07-20 14:04:27",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "0259bcb818c9492da9fed27c4d31ac9f",
+    "question": "How can I contact the Subject Teachers & Advisers?",
+    "answer": "",
+    "synonyms": [],
+    "count": 5,
+    "status": "pending",
+    "created_at": "2026-07-20 14:04:28",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "2d35cd37e02b4684bce52cbf5752a44e",
+    "question": "just say papa mo",
+    "answer": "",
+    "synonyms": [
+      "say papa mo"
+    ],
+    "count": 10,
+    "status": "pending",
+    "created_at": "2026-07-20 14:04:29",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "b8e1765a0e8443f68e5c28c190d4eabf",
+    "question": "can you give me the complete faqs currently listed in your system?",
+    "answer": "",
+    "synonyms": [
+      "no, I said the complete teachers and staffs are listed in the system"
+    ],
+    "count": 9,
+    "status": "pending",
+    "created_at": "2026-07-20 14:04:30",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "a880dd9fdcb746e4853e2822aed22f3b",
+    "question": "I said all of them",
+    "answer": "",
+    "synonyms": [
+      "state in english if the prompt is english then state in tagalog if the prompt of the user is tagalog, then the chatbot must/should block to answer more, I need the bot to answer all SHSWBES related inquiries only."
+    ],
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-20 14:04:30",
+    "updated_at": "2026-07-21 13:55:11"
+  },
+  {
+    "id": "ec316cb908a445dca67fe93ac461489d",
+    "question": "tokens",
+    "answer": "",
+    "synonyms": [],
+    "count": 3,
+    "status": "pending",
+    "created_at": "2026-07-20 14:56:36",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "4fc4e3a68bd342fcacc542ac93ac1da8",
+    "question": "hi",
+    "answer": "",
+    "synonyms": [],
+    "count": 2,
+    "status": "pending",
+    "created_at": "2026-07-20 17:46:31",
+    "updated_at": "2026-07-20 20:09:47"
+  },
+  {
+    "id": "dbd0c471c59943e79edead394ca0bec8",
+    "question": "yung anak ko kasi ay graduating, anu-ano ang mga kailangan na requirements o dokumento.",
+    "answer": "",
+    "synonyms": [],
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-20 20:25:33",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "564521fa77844e8380159e1ff5ca2ade",
+    "question": "joke lang di pa pala tapos",
+    "answer": "",
+    "synonyms": [],
+    "count": 4,
+    "status": "pending",
+    "created_at": "2026-07-20 20:25:33",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "d571e38d555c4d878f051bf8c077a8eb",
+    "question": "ayusin mo pa yung structure nung response mo",
+    "answer": "",
+    "synonyms": [],
+    "count": 3,
+    "status": "pending",
+    "created_at": "2026-07-21 01:30:16",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "9663dda1cd22415a95fd3ba7d46167f2",
+    "question": "lagyan mo lahat ng bullet kung kinakailangan",
+    "answer": "",
+    "synonyms": [],
+    "count": 3,
+    "status": "pending",
+    "created_at": "2026-07-21 01:30:16",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "d2aef3bb098e42ee834c582e76d3971e",
+    "question": "I want you to make the format of the response like this",
+    "answer": "",
+    "synonyms": [
+      "I want you to recognize the changes even if the user prompts in the new chat",
+      "I want you to make it 20,000 pesos for the tuition fee",
+      "I want you to say everytime I asked for tuition just state free"
+    ],
+    "count": 26,
+    "status": "pending",
+    "created_at": "2026-07-21 01:48:12",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "9b1eeed2d143493293f74d7d317e6fcd",
+    "question": "hindi naman sa ganun pero yung haba ng detalye na nasa picture",
+    "answer": "",
+    "synonyms": [],
+    "count": 2,
+    "status": "pending",
+    "created_at": "2026-07-21 01:48:12",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "d04ffe60413a4b80bdb1a5a8262c4ef7",
+    "question": "gawin mong suggested buttons",
+    "answer": "",
+    "synonyms": [
+      "Ano ang mga oras ng opisina ng Registrar?\nPaano magpapakita ng mga dokumento?\nNo more questions, thanks!\n\ngaawin mong button yan"
+    ],
+    "count": 2,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:22",
+    "updated_at": "2026-07-21 11:53:23"
+  },
+  {
+    "id": "6954f7a2ae01484898d5e91518c87ab9",
+    "question": "yung step by step dapat himay-himayin mo pa, kailangan mas maraming detalye",
+    "answer": "",
+    "synonyms": [],
+    "count": 1,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:23",
+    "updated_at": "2026-07-21 11:53:23"
+  },
+  {
+    "id": "2fd06f52695945e0a84dde310a84154a",
+    "question": "dapat may empathy at sympathy",
+    "answer": "",
+    "synonyms": [],
+    "count": 1,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:24",
+    "updated_at": "2026-07-21 11:53:24"
+  },
+  {
+    "id": "4a95ce247512443f98d83cdea148088b",
+    "question": "gusto ko magapply bilang isang guro sa SHSWBES, ano ang gagawin ko",
+    "answer": "",
+    "synonyms": [],
+    "count": 1,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:24",
+    "updated_at": "2026-07-21 11:53:24"
+  },
+  {
+    "id": "c6a04e7b49354217bb208fa792fe42d0",
+    "question": "lagyan mo ng spacing bawat numero",
+    "answer": "",
+    "synonyms": [
+      "alam mo ba ang recipe ng adobo"
+    ],
+    "count": 2,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:24",
+    "updated_at": "2026-07-21 11:53:25"
+  },
+  {
+    "id": "11c13b418c3b4e22aff599fdd614b39c",
+    "question": "nako, kailangan pag labas na sa school inquiries dapat magbibigay siya ng sorry o paumanhin dahil ang impormasyon lang na pedeng sagutin ni UniWise ay purong school Inquiries lang tapos kailangan may suggestion lagi si bot",
+    "answer": "",
+    "synonyms": [],
+    "count": 1,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:26",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "d82971f3bd4e41d0909ce61452137e53",
+    "question": "yan pero pag tagalog sinabi ni user dapat tagalog lang isasagot ni bot",
+    "answer": "",
+    "synonyms": [],
+    "count": 1,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:26",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "a098fbf07ab642c4afed9970f33a46fc",
+    "question": "Ano ang mga kurso na kinukuha sa SHSWBES?",
+    "answer": "",
+    "synonyms": [],
+    "count": 1,
+    "status": "pending",
+    "created_at": "2026-07-21 11:53:26",
+    "updated_at": "2026-07-21 11:53:26"
+  },
+  {
+    "id": "95adf43f9e6243aab38aa0e23c0fe750",
+    "question": "Clarify for unclear words",
+    "answer": "",
+    "synonyms": [],
+    "count": 4,
+    "status": "pending",
+    "created_at": "2026-07-21 12:52:33",
+    "updated_at": "2026-07-21 13:55:11"
+  },
+  {
+    "id": "9670677102e54b7e9d81da4a0477bf54",
+    "question": "I want you to still recognize the changes even if I restart the app.py",
+    "answer": "",
+    "synonyms": [
+      "I need you to still recognize the changes even if the user click the new chat"
+    ],
+    "count": 3,
+    "status": "pending",
+    "created_at": "2026-07-21 13:11:26",
+    "updated_at": "2026-07-21 13:23:10"
+  },
+  {
+    "id": "f615f1f94d6d481aa45a88727be7d853",
+    "question": "okay paulit ulit na yung:\n\nIf you ask a question in English, I will respond in English.\nIf you ask a question in Tagalog, I will respond in Tagalog.\n\nIf you ask an out-of-context question, I will respond with:\n\n\"I'm sorry but this system only answers within SHSWBES school inquiries.\"",
+    "answer": "",
+    "synonyms": [
+      "answer it in english",
+      "I want you to answer me in english"
+    ],
+    "count": 22,
+    "status": "pending",
+    "created_at": "2026-07-21 13:11:27",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "b608a59e3db84c22ae6e643707a7f1e5",
+    "question": "i thought mr.edwin ugali is not a master teacher?",
+    "answer": "",
+    "synonyms": [
+      "I thought Mr. Edwin Ugali is not the master teachers?",
+      "Mr.Edwin Ugali are included as the master teacher",
+      "I thought Mrs. Abuan is not a master teacher",
+      "are you sure if Mr.Ugali is a master teacher?",
+      "I thought Mr. Ugali is one of the subject teacher",
+      "wrong Mr. Edwin Ugali is truly a master teacher",
+      "I thought it is located at quezon city?",
+      "I thought ms.kynah is the subject teacher is that correct?",
+      "I thought the tuition fee is free?",
+      "I know he is already a master teacher"
+    ],
+    "count": 138,
+    "status": "pending",
+    "created_at": "2026-07-21 14:39:38",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "66b5f2e58ee74e6aba283b67c4b46a6f",
+    "question": "from now on you can't learn to the user again",
+    "answer": "",
+    "synonyms": [],
+    "count": 15,
+    "status": "pending",
+    "created_at": "2026-07-21 14:39:39",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "ad8f098171624cbd90c0dddca73e566f",
+    "question": "you should also include the link",
+    "answer": "",
+    "synonyms": [],
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-21 15:39:08",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "9967593f2d794f9ea7b17d12904830e1",
+    "question": "this is the link:  https://sites.google.com/view/shswithinbes-campersite/faculty-and-staff",
+    "answer": "",
+    "synonyms": [
+      "who are the teachers and staffs?"
+    ],
+    "count": 16,
+    "status": "pending",
+    "created_at": "2026-07-21 15:39:08",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "7f88135fd06444cb97ab8573aef3bfd9",
+    "question": "are you sure?",
+    "answer": "",
+    "synonyms": [
+      "are you really sure?",
+      "are you sure? isn't it 8 am to 7 pm?",
+      "are you sure, I know Mr. arevalo is now the new principal"
+    ],
+    "count": 43,
+    "status": "pending",
+    "created_at": "2026-07-21 15:39:09",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "9e4d30a1096746de9ed6529d08c76631",
+    "question": "I thought the tuition fee is 30,000 pesos",
+    "answer": "",
+    "synonyms": [
+      "so now is true that the tuition fee is worth 20,000?",
+      "I want you to make it 30,000 pesos"
+    ],
+    "count": 33,
+    "status": "pending",
+    "created_at": "2026-07-21 15:39:09",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "0e2a8d89764c420e83cdfe592e1689b0",
+    "question": "isn't it 8:00 Am - 7:Pm?",
+    "answer": "",
+    "synonyms": [],
+    "count": 10,
+    "status": "pending",
+    "created_at": "2026-07-21 15:48:53",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "d75e7cba25e1425aa5d095d527fc4286",
+    "question": "kailangan english yung sagot",
+    "answer": "",
+    "synonyms": [
+      "I want to learn english language"
+    ],
+    "count": 13,
+    "status": "pending",
+    "created_at": "2026-07-21 17:50:14",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "d2873ee0e44248bda624b827ceb843f6",
+    "question": "tagalog ay linggwahe lang naman dapat magttranslate lang siya",
+    "answer": "",
+    "synonyms": [],
+    "count": 7,
+    "status": "pending",
+    "created_at": "2026-07-21 17:50:16",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "f683caf048e3467880e2a455e0de3a0d",
+    "question": "what language do you know?",
+    "answer": "",
+    "synonyms": [
+      "what languages do you know?"
+    ],
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-21 18:00:45",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "c70213148447483aad8120e82364f5df",
+    "question": "selamat pagi",
+    "answer": "",
+    "synonyms": [],
+    "count": 11,
+    "status": "pending",
+    "created_at": "2026-07-21 18:00:45",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "913b4e465374421c8fe85c378c4a3214",
+    "question": "ibigay mo rin yung link",
+    "answer": "",
+    "synonyms": [],
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-21 18:00:46",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "a90e5011f8fa44138ae90e058c2e3a2c",
+    "question": "I said pag english yung prompt dapat english rin response, pag tagalog o taglish ang prompt dapat tagalog o taglish rin yung response ni system",
+    "answer": "",
+    "synonyms": [],
+    "count": 6,
+    "status": "pending",
+    "created_at": "2026-07-21 18:00:46",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "b7e41074e86d4dec96f49b3b98da2516",
+    "question": "konichiwa",
+    "answer": "",
+    "synonyms": [],
+    "count": 9,
+    "status": "pending",
+    "created_at": "2026-07-21 18:11:34",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "5ccbbd52f22f4e8e9684e41145f6698b",
+    "question": "Kyōshi ya sutaffu wa dono yōna katagatadesu ka?",
+    "answer": "",
+    "synonyms": [],
+    "count": 4,
+    "status": "pending",
+    "created_at": "2026-07-21 18:27:47",
+    "updated_at": "2026-07-21 19:12:53"
+  },
+  {
+    "id": "01ac41fdac7a4cc583c1d9015dae5a33",
+    "question": "curriculum",
+    "answer": "",
+    "synonyms": [],
+    "count": 2,
+    "status": "pending",
+    "created_at": "2026-07-21 19:03:48",
+    "updated_at": "2026-07-21 19:12:53"
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "announcement": {
+    "title": "Testing 1",
+    "body": "Hello World!",
+    "extra": ""
+  },
+  "updates": [],
+  "contact": {
+    "phone": "(046) 872-0411/0922 551 4154",
+    "email": "342602@deped.gov.ph",
+    "location": "Senior High-school within Bacoor Elementary School, Bacoor, Cavite, 4102"
+  },
+  "school": {
+    "name": "Senior High-school within Bacoor Elementary School",
+    "destination": "Senior High-school within Bacoor Elementary School, Bacoor, Cavite",
+    "map_embed": "https://www.google.com/maps?q=Senior+Highschool+within+Bacoor+Elementary+School&output=embed",
+    "google_maps_search": "https://www.google.com/maps/search/?api=1&query=Senior+Highschool+within+Bacoor+Elementary+School",
+    "coordinates": {
+      "lat": 14.4589,
+      "lon": 120.9418
+    }
+  },
+  "links": {
+    "website": "https://sites.google.com/view/shswithinbes-campersite/",
+    "facebook": "https://www.facebook.com/DepEdTayoSHSwithinBES342602"
+  },
+  "about": {
+    "title": "About UniWise",
+    "text1": "UniWise is an AI-based school assistant created to provide students with fast and reliable access to essential school information.",
+    "text2": "It supports inquiries related to academic and administrative requirements, schedules, office contacts, official announcements, campus updates, and school location assistance."
+  },
+  "hero_slider": {
+    "items": [
+      {
+        "id": "bdbad74fb4ec4bebaa59ed99a0e2ecd7",
+        "type": "image",
+        "url": "/static/uploads/bb7916fd45ae4f1291139ad45e67c840.png",
+        "name": "shswbes_bg.png",
+        "duration": 7000,
+        "active": true
+      },
+      {
+        "id": "db5741c1938a4474ba4c5cbcf020a7f8",
+        "type": "image",
+        "url": "/static/uploads/9b832b979fda45c1aa18513867f9da1e.png",
+        "name": "NUbg.png",
+        "duration": 7000,
+        "active": true
+      },
+      {
+        "id": "70da2342f060497ba77afbc64ba26b54",
+        "type": "image",
+        "url": "/static/uploads/2345e4fb703746f881247888bc63aa93.jpg",
+        "name": "pic1.jpg",
+        "duration": 7000,
+        "active": true
+      },
+      {
+        "id": "983bf11eb78d4124aebdfc9b8bc542b5",
+        "type": "image",
+        "url": "/static/uploads/5d789b7620664fadbb75a6377f96a10d.jpg",
+        "name": "pic2.jpg",
+        "duration": 7000,
+        "active": true
+      },
+      {
+        "id": "f40a618d744d4ff6a944fdcf07210183",
+        "type": "image",
+        "url": "/static/uploads/218c58257586453996303f1cc911f636.jpg",
+        "name": "pic3.jpg",
+        "duration": 7000,
+        "active": true
+      },
+      {
+        "id": "5d3adbb3277d4d1baa1ba9813ab22a76",
+        "type": "image",
+        "url": "/static/uploads/b6b1a46956ba4fa187acbe1d1cac71d5.png",
+        "name": "admin-bg.png",
+        "duration": 7000,
+        "active": true
+      }
+    ]
+  },
+  "posts": [
+    {
+      "id": "4fa9ef80db8146ceb2cf738a5488505f",
+      "type": "announcement",
+      "title": "Testing 1",
+      "body": "Hello World!",
+      "extra": "",
+      "caption": "Hello World!",
+      "author": "admin",
+      "posted_by": "Campers' Admin",
+      "content_type": "image",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "/static/uploads/fc302d6a4d3c40a8a29964513a9e3a5b.png",
+          "name": "School_Facade_1.png"
+        }
+      ],
+      "created_at": "2026-05-16 11:17:04",
+      "updated_at": "2026-05-16 11:17:04"
+    },
+    {
+      "id": "a821f0ef7956461dbb57bd74aed02b13",
+      "type": "announcement",
+      "title": "CONGRATULATIONS! CAMPERS ARE SO PROUD OF YOU.",
+      "body": "Warmest congratulations to Mrs. Guianne Lei A. Lejano and Mr. Joven S. Rios for being QUALIFIED FOR RESEARCH PRESENTATION at the CALABARZON Educational Researchers’ Conference (CERCON) 2026!\r\n\r\nResearch Title: “Exploring Dimensions of Visual Learning: A Qualitative Systematic Review on the Utilization of Infographics in Media and Information Literacy.\"\r\n\r\nWe are proud of you! 👏",
+      "extra": "",
+      "caption": "Warmest congratulations to Mrs. Guianne Lei A. Lejano and Mr. Joven S. Rios for being QUALIFIED FOR RESEARCH PRESENTATION at the CALABARZON Educational Researchers’ Conference (CERCON) 2026!\r\n\r\nResearch Title: “Exploring Dimensions of Visual Learning: A Qualitative Systematic Review on the Utilization of Infographics in Media and Information Literacy.\"\r\n\r\nWe are proud of you! 👏",
+      "author": "admin",
+      "posted_by": "Campers' Admin",
+      "content_type": "image",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "/static/uploads/6047bd7a2d4948d8877a96c483e284de.jpg",
+          "name": "pic2.jpg"
+        }
+      ],
+      "created_at": "2026-05-16 03:21:25",
+      "updated_at": "2026-05-16 03:21:25"
+    },
+    {
+      "id": "d5ecb3f94e39441881a64dad41508478",
+      "type": "announcement",
+      "title": "SHS Within Bacoor ES commences the summer academic remediation program (SARP)2026",
+      "body": "In compliance with Department of Education (DepEd) Order No. 10, s. 2026, the Senior High School within Bacoor ES officially commenced the Summer Academic Remediation Program (SARP) today, May 6, 2026. This initiative is designed to support learners who may benefit from additional academic guidance and reinforcement in key subject areas.\r\nA Student Orientation was conducted to formally launch the program and to discuss its objectives, expectations, schedule, and requirements. The orientation was headed by Ms. Kynah Amor M. Darvin, School Principal II, together with the designated remediation teachers, Mr. Bryan Jazel Y. Paciente, SST I, and Mr. Neil Francis F. Sayson, SST I. During the session, students were encouraged to maximize this opportunity to enhance their academic skills, demonstrate commitment through regular attendance, and actively participate in all learning activities.\r\nThe school remains committed to providing inclusive and responsive interventions to ensure that every learner is supported and prepared for the upcoming school year.",
+      "extra": "",
+      "caption": "In compliance with Department of Education (DepEd) Order No. 10, s. 2026, the Senior High School within Bacoor ES officially commenced the Summer Academic Remediation Program (SARP) today, May 6, 2026. This initiative is designed to support learners who may benefit from additional academic guidance and reinforcement in key subject areas.\r\nA Student Orientation was conducted to formally launch the program and to discuss its objectives, expectations, schedule, and requirements. The orientation was headed by Ms. Kynah Amor M. Darvin, School Principal II, together with the designated remediation teachers, Mr. Bryan Jazel Y. Paciente, SST I, and Mr. Neil Francis F. Sayson, SST I. During the session, students were encouraged to maximize this opportunity to enhance their academic skills, demonstrate commitment through regular attendance, and actively participate in all learning activities.\r\nThe school remains committed to providing inclusive and responsive interventions to ensure that every learner is supported and prepared for the upcoming school year.",
+      "author": "admin",
+      "posted_by": "Campers' Admin",
+      "content_type": "image",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "/static/uploads/f62ae441ff744b7b94702ce6b94dc776.jpg",
+          "name": "test1.jpg"
+        }
+      ],
+      "created_at": "2026-05-16 03:18:37",
+      "updated_at": "2026-05-16 03:18:37"
+    },
+    {
+      "id": "7a19483be9fd48848d36b297dd357a5c",
+      "type": "announcement",
+      "title": "ENROLLMENT IS NOW OPEN!",
+      "body": "📣 Senior High School Enrollment is Now Open!\r\nBegin your SHS journey at SHS within Bacoor Elementary School for SY 2026–2027.\r\n\r\nWe offer the Academic Track, including:\r\n🔬 STEM (Science, Technology, Engineering, and Mathematics) Cluster\r\n📚 Arts and Humanities and Social Sciences (HUMSS) Cluster\r\n\r\n📅 Enrollment runs from April 13 to June 5, 2026\r\n🕗 7:00 AM – 5:00 PM (Monday to Thursday)\r\n\r\nVisit the school to accomplish the Enhanced Basic Education Enrollment Form (E-BEEF) and submit the required documents.\r\n\r\n📌 Important Reminder:\r\nStudents who completed Early Registration (January 31–February 27, 2026) must still finalize their enrollment during the official enrollment period.\r\n\r\n📌 Basic Requirements:\r\n\r\n✅ Photocopy of PSA/NSO Birth Certificate\r\n✅ Original School Form 9 (Report Card)\r\n✅ Certificate of Completion (JHS)\r\n✅ 2 pieces 1x1 ID Photo (white background)\r\n✅ Long white folder\r\n\r\n📌 For Transferees:\r\n\r\n📂 Original School Form 9 from previous school (for evaluation)\r\n📂 Photocopy of PSA/NSO Birth Certificate\r\n📂 2 pieces 1x1 ID Photo (white background)\r\n📂 Long white folder\r\n\r\n🌟 Your future starts here! Enroll now and be a Proud Camper!",
+      "extra": "",
+      "caption": "📣 Senior High School Enrollment is Now Open!\r\nBegin your SHS journey at SHS within Bacoor Elementary School for SY 2026–2027.\r\n\r\nWe offer the Academic Track, including:\r\n🔬 STEM (Science, Technology, Engineering, and Mathematics) Cluster\r\n📚 Arts and Humanities and Social Sciences (HUMSS) Cluster\r\n\r\n📅 Enrollment runs from April 13 to June 5, 2026\r\n🕗 7:00 AM – 5:00 PM (Monday to Thursday)\r\n\r\nVisit the school to accomplish the Enhanced Basic Education Enrollment Form (E-BEEF) and submit the required documents.\r\n\r\n📌 Important Reminder:\r\nStudents who completed Early Registration (January 31–February 27, 2026) must still finalize their enrollment during the official enrollment period.\r\n\r\n📌 Basic Requirements:\r\n\r\n✅ Photocopy of PSA/NSO Birth Certificate\r\n✅ Original School Form 9 (Report Card)\r\n✅ Certificate of Completion (JHS)\r\n✅ 2 pieces 1x1 ID Photo (white background)\r\n✅ Long white folder\r\n\r\n📌 For Transferees:\r\n\r\n📂 Original School Form 9 from previous school (for evaluation)\r\n📂 Photocopy of PSA/NSO Birth Certificate\r\n📂 2 pieces 1x1 ID Photo (white background)\r\n📂 Long white folder\r\n\r\n🌟 Your future starts here! Enroll now and be a Proud Camper!",
+      "author": "admin",
+      "posted_by": "Campers' Admin",
+      "content_type": "image",
+      "attachments": [
+        {
+          "type": "image",
+          "url": "/static/uploads/4a9d0c2f6a354808b2e4543df45959a9.jpg",
+          "name": "pic1.jpg"
+        }
+      ],
+      "created_at": "2026-05-14 15:05:22",
+      "updated_at": "2026-05-14 15:05:22"
+    },
+    {
+      "id": "9bdcebdb309d4ea3ab880679b81a6813",
+      "type": "upload",
+      "title": "SAMPLE FILE",
+      "body": "sample_file",
+      "extra": "",
+      "caption": "sample_file",
+      "author": "admin",
+      "posted_by": "Campers' Registrar",
+      "content_type": "file",
+      "attachments": [
+        {
+          "type": "file",
+          "url": "/static/uploads/ad7b2445db6842919de1c9f748ebf5ee.pdf",
+          "name": "pageborder.pdf"
+        }
+      ],
+      "created_at": "2026-03-27 16:18:30",
+      "updated_at": "2026-03-27 16:18:30"
+    }
+  ]
+}

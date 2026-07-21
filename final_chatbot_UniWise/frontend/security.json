@@ -1,0 +1,106 @@
+{
+  "admins": {
+    "admin": {
+      "totp_secret": "BNQVCTASOEMOQZCJU4UL3T76YL6LXPMD",
+      "totp_enabled": true,
+      "failed_attempts": 0,
+      "lockout_until": null,
+      "session_version": 1,
+      "trusted_devices": [
+        {
+          "id": "0607e67e433b44509583a89620cff5d2",
+          "token": "690323dbba6b39e788cef64cf263978055254952be1ffa21",
+          "device_name": "Edge on Windows",
+          "device_type": "desktop",
+          "ip_address": "127.0.0.1",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "created_at": "2026-07-16 11:19:55",
+          "last_seen": "2026-07-21 19:06:50",
+          "trusted_until": "2026-08-15T11:19:55.157884"
+        }
+      ],
+      "access_log": [
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-21 19:06:50",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-21 18:27:05",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-20 17:47:22",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-19 17:15:30",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-16 19:55:25",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-16 17:51:31",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-16 15:04:00",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-16 13:44:36",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-16 12:39:54",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        },
+        {
+          "device": "Edge on Windows",
+          "device_type": "desktop",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "ip": "127.0.0.1",
+          "login_at": "2026-07-16 11:19:55",
+          "device_id": "0607e67e433b44509583a89620cff5d2"
+        }
+      ]
+    }
+  }
+}

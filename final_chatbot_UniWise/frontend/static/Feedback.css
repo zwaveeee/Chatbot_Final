@@ -1,0 +1,313 @@
+:root {
+    --gold: #d9a62e;
+    --gold-deep: #b8841f;
+    --gold-pale: #f6e7c4;
+    --green: #1f4d2e;
+    --green-deep: #123722;
+    --cream: #fbf7ee;
+    --paper: #ffffff;
+    --ink: #22281f;
+    --muted: #6b6558;
+    --line: #e8e0cd;
+    --radius: 14px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .banner {
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 clamp(20px, 5vw, 56px);
+    background: linear-gradient(120deg, var(--gold) 0%, var(--gold) 42%, var(--green) 58%, var(--green-deep) 100%);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(115deg, transparent 45%, rgba(255,255,255,.14) 46%, rgba(255,255,255,.14) 47%, transparent 48%),
+      linear-gradient(115deg, transparent 51%, rgba(255,255,255,.10) 52%, rgba(255,255,255,.10) 53%, transparent 54%);
+    pointer-events: none;
+  }
+
+  .banner-id { display: flex; align-items: center; gap: 12px; z-index: 1; }
+  .banner-id .crest {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: rgba(255,255,255,.18);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    border: 1.5px solid rgba(255,255,255,.5);
+  }
+  .banner-id .name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.05rem; line-height: 1.1; }
+  .banner-id .subname { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; opacity: .9; }
+
+  .banner-tag {
+    z-index: 1;
+    font-size: .78rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.16);
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.35);
+  }
+
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: clamp(28px, 5vw, 52px) 20px 80px;
+  }
+
+  .eyebrow {
+    font-size: .78rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
+    line-height: 1.15;
+    margin: 0 0 10px;
+    color: var(--green-deep);
+  }
+
+  .lede {
+    color: var(--muted);
+    font-size: .98rem;
+    line-height: 1.55;
+    margin: 0 0 34px;
+    max-width: 46ch;
+  }
+
+  form { display: flex; flex-direction: column; gap: 34px; }
+
+  fieldset { border: none; margin: 0; padding: 0; }
+
+  legend {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin-bottom: 4px;
+    padding: 0;
+  }
+
+  .legend-sub { font-size: .84rem; color: var(--muted); margin: 2px 0 14px; }
+
+  /* ── Signature element: report-card grade rows ── */
+  .grade-slip {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--paper);
+    box-shadow: 0 1px 2px rgba(31,77,46,.04);
+  }
+
+  .grade-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    position: relative;
+    transition: background .15s ease;
+  }
+  .grade-row:last-child { border-bottom: none; }
+  .grade-row:hover { background: #fbf3de; }
+
+  .grade-row input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .grade-badge {
+    flex: none;
+    width: 34px; height: 34px;
+    border-radius: 8px;
+    background: var(--gold-pale);
+    color: var(--gold-deep);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+    transition: background .15s ease, color .15s ease;
+  }
+
+  .grade-text { flex: 1; }
+  .grade-title { font-weight: 600; font-size: .95rem; }
+  .grade-desc { font-size: .8rem; color: var(--muted); }
+
+  .grade-check {
+    flex: none;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--line);
+    transition: border-color .15s ease, background .15s ease;
+  }
+
+  .grade-row input:checked ~ .grade-badge { background: var(--green); color: #fff; }
+  .grade-row input:checked ~ .grade-check { border-color: var(--green); background: var(--green); box-shadow: inset 0 0 0 3px #fff; }
+  .grade-row:has(input:checked) { background: #f2f7f0; }
+  .grade-row input:focus-visible ~ .grade-badge { outline: 2px solid var(--green); outline-offset: 2px; }
+
+  /* ── Segmented pill controls for secondary questions ── */
+  .pill-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill {
+    position: relative;
+  }
+  .pill input { position: absolute; opacity: 0; width: 100%; height: 100%; cursor: pointer; }
+  .pill-label {
+    display: block;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--ink);
+    transition: all .15s ease;
+    white-space: nowrap;
+  }
+  .pill input:checked ~ .pill-label {
+    background: var(--green);
+    border-color: var(--green);
+    color: #fff;
+  }
+  .pill input:focus-visible ~ .pill-label { outline: 2px solid var(--green-deep); outline-offset: 2px; }
+
+  /* ── Notebook-style textarea ── */
+  .notebook {
+    width: 100%;
+    min-height: 120px;
+    resize: vertical;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: .92rem;
+    line-height: 1.9rem;
+    color: var(--ink);
+    background:
+      linear-gradient(var(--paper) 0, var(--paper) calc(1.9rem - 1px), var(--line) calc(1.9rem - 1px), var(--line) 1.9rem) 0 6px / 100% 1.9rem;
+  }
+  .notebook:focus-visible { outline: 2px solid var(--green); outline-offset: 1px; }
+  .notebook::placeholder { color: #b7b19f; }
+
+  button[type="submit"] {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: linear-gradient(120deg, var(--gold), var(--gold-deep));
+    color: #fff;
+    border: none;
+    padding: 13px 26px;
+    border-radius: 999px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: .95rem;
+    cursor: pointer;
+    transition: transform .15s ease, box-shadow .15s ease;
+    box-shadow: 0 4px 14px rgba(184,132,31,.28);
+  }
+  button[type="submit"]:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(184,132,31,.35); }
+  button[type="submit"]:focus-visible { outline: 2px solid var(--green-deep); outline-offset: 3px; }
+  button[type="submit"]:disabled { opacity: .6; cursor: default; transform: none; }
+
+  .error-msg {
+    font-size: .85rem;
+    color: #a3401e;
+    display: none;
+  }
+  .error-msg.show { display: block; }
+
+  /* ── Success / "stamped" state ── */
+  .stamp-wrap {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 10px 10px;
+  }
+  .stamp-wrap.show { display: flex; }
+
+  .stamp {
+    width: 108px; height: 108px;
+    border-radius: 50%;
+    border: 3px solid var(--green);
+    color: var(--green);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: .78rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    transform: rotate(-8deg);
+    margin-bottom: 22px;
+    position: relative;
+  }
+  .stamp::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px solid var(--green);
+    border-radius: 50%;
+  }
+  .stamp i { position: absolute; font-size: 1.6rem; top: 16px; }
+  .stamp span { position: absolute; bottom: 20px; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .stamp { animation: stamp-in .38s cubic-bezier(.2,1.4,.4,1) both; }
+  }
+  @keyframes stamp-in {
+    from { transform: scale(1.6) rotate(-8deg); opacity: 0; }
+    to   { transform: scale(1) rotate(-8deg); opacity: 1; }
+  }
+
+  .stamp-wrap h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.4rem;
+    margin: 0 0 8px;
+    color: var(--green-deep);
+  }
+  .stamp-wrap p { color: var(--muted); max-width: 38ch; margin: 0 0 22px; font-size: .93rem; }
+
+  .back-link {
+    font-size: .88rem;
+    font-weight: 600;
+    color: var(--green-deep);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .back-link:hover { text-decoration: underline; }
+
+  @media (max-width: 480px) {
+    .banner-tag { display: none; }
+  }

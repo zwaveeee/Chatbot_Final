@@ -1,0 +1,397 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import React, { useState, useRef, useEffect } from 'react';
+import {
+  Plus,
+  Search,
+  Trash2,
+  Send,
+  Paperclip,
+  Image as ImageIcon,
+  StopCircle,
+  ChevronLeft,
+  ChevronRight,
+  User,
+  Bot,
+  History,
+  FolderOpen,
+  Settings,
+  Lock,
+  ArrowUp
+} from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import { motion, AnimatePresence } from 'motion/react';
+import { clsx, type ClassValue } from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
+function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+interface Message {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  timestamp: number;
+}
+
+interface Conversation {
+  id: string;
+  title: string;
+  messages: Message[];
+  updatedAt: number;
+}
+
+export default function App() {
+  const [conversations, setConversations] = useState<Conversation[]>([
+    {
+      id: '1',
+      title: 'Latest announcement',
+      messages: [
+        { id: 'm1', role: 'assistant', content: 'Hello! 👋 I’m UniWise, your AI school assistant. How may I help you today?', timestamp: Date.now() }
+      ],
+      updatedAt: Date.now()
+    }
+  ]);
+  const [activeId, setActiveId] = useState('1');
+  const [input, setInput] = useState('');
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const chatEndRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+
+  const activeConv = conversations.find(c => c.id === activeId) || conversations[0];
+
+  useEffect(() => {
+    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [activeConv.messages]);
+
+  const handleSend = () => {
+    if (!input.trim() || isGenerating) return;
+
+    const newMessage: Message = {
+      id: Date.now().toString(),
+      role: 'user',
+      content: input.trim(),
+      timestamp: Date.now()
+    };
+
+    const updatedCol = conversations.map(c => {
+      if (c.id === activeId) {
+        return {
+          ...c,
+          messages: [...c.messages, newMessage],
+          updatedAt: Date.now(),
+          title: c.messages.length === 1 ? newMessage.content.slice(0, 30) : c.title
+        };
+      }
+      return c;
+    });
+
+    setConversations(updatedCol);
+    setInput('');
+    setIsGenerating(true);
+
+    // Simulate AI response
+    setTimeout(() => {
+      const botMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: 'assistant',
+        content: `I am UniWise, your campus assistant. In response to your message: "**${newMessage.content}**", I am here to help you navigate through all university resources and announcements.`,
+        timestamp: Date.now()
+      };
+
+      setConversations(prev => prev.map(c => {
+        if (c.id === activeId) {
+          return { ...c, messages: [...c.messages, botMessage], updatedAt: Date.now() };
+        }
+        return c;
+      }));
+      setIsGenerating(false);
+    }, 1500);
+  };
+
+  const createNewChat = () => {
+    const newId = Date.now().toString();
+    const newConv: Conversation = {
+      id: newId,
+      title: 'New Chat',
+      messages: [{ id: 'm1', role: 'assistant', content: 'Hello! 👋 I’m UniWise, your AI school assistant. How may I help you today?', timestamp: Date.now() }],
+      updatedAt: Date.now()
+    };
+    setConversations([newConv, ...conversations]);
+    setActiveId(newId);
+  };
+
+  const deleteConv = (id: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    const filtered = conversations.filter(c => c.id !== id);
+    setConversations(filtered);
+    if (activeId === id && filtered.length > 0) {
+      setActiveId(filtered[0].id);
+    } else if (filtered.length === 0) {
+      createNewChat();
+    }
+  };
+
+  const filteredHistory = conversations.filter(c =>
+    c.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  return (
+    <div className="flex h-screen bg-white text-[#202124] overflow-hidden font-inter">
+      {/* Sidebar - Studio Styled */}
+      <AnimatePresence mode="wait">
+        {sidebarOpen && (
+          <motion.aside
+            initial={{ width: 0, opacity: 0 }}
+            animate={{ width: 280, opacity: 1 }}
+            exit={{ width: 0, opacity: 0 }}
+            className="flex flex-col bg-[#f8f9fa] border-r border-[#dadce0] h-full overflow-hidden"
+          >
+            <div className="p-4 flex flex-col gap-4">
+              <button
+                onClick={createNewChat}
+                className="flex items-center gap-3 w-full p-4 rounded-xl hover:bg-[#e8eaed] transition-all text-sm font-medium border border-[#dadce0] bg-white shadow-sm text-[#3c4043]"
+              >
+                <Plus size={20} className="text-[#1a73e8]" />
+                <span>New chat</span>
+              </button>
+
+              <div className="relative">
+                <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-[#5f6368]" />
+                <input
+                  type="text"
+                  placeholder="Search history"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full bg-[#f1f3f4] border-none rounded-xl py-2 pl-10 pr-4 text-[14px] focus:outline-none focus:ring-2 focus:ring-[#1a73e8]/20 placeholder-[#5f6368]"
+                />
+              </div>
+            </div>
+
+            <div className="flex-1 overflow-y-auto px-2">
+              <h3 className="px-4 py-2 text-[11px] font-bold text-[#5f6368] uppercase tracking-[0.12em] opacity-70">Recents</h3>
+              <div className="space-y-1 mt-1">
+                {filteredHistory.map((conv) => (
+                  <div
+                    key={conv.id}
+                    onClick={() => setActiveId(conv.id)}
+                    className={cn(
+                      "group flex items-center justify-between p-3 mx-2 rounded-xl cursor-pointer text-[14px] transition-all",
+                      activeId === conv.id ? "bg-[#e8f0fe] text-[#1967d2] font-semibold" : "text-[#3c4043] hover:bg-[#eceef0]"
+                    )}
+                  >
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <History size={16} className={cn("shrink-0", activeId === conv.id ? "text-[#1a73e8]" : "text-[#5f6368]")} />
+                      <span className="truncate">{conv.title}</span>
+                    </div>
+                    <button
+                      onClick={(e) => deleteConv(conv.id, e)}
+                      className="opacity-0 group-hover:opacity-100 p-1.5 hover:bg-[#dadce0]/50 rounded-lg transition-opacity"
+                    >
+                      <Trash2 size={14} className="text-[#5f6368]" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="p-4 border-t border-[#dadce0]/50">
+              <button className="flex items-center gap-3 w-full p-2.5 rounded-xl hover:bg-[#eceef0] text-sm text-[#3c4043] transition-colors">
+                <Settings size={18} />
+                <span>Settings</span>
+              </button>
+            </div>
+          </motion.aside>
+        )}
+      </AnimatePresence>
+
+      {/* Main Content */}
+      <main className="flex-1 flex flex-col relative min-w-0 bg-white">
+        {/* Header - Transparent with finalbg.png support */}
+        <header
+          className="h-[64px] flex items-center justify-between px-4 border-b border-[#e0e0e0] shrink-0 bg-white/80 backdrop-blur-md z-10 sticky top-0"
+          style={{
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.98)), url('finalbg.png')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+              className="p-2.5 hover:bg-[#f1f3f4] rounded-full transition-colors text-[#5f6368]"
+              title={sidebarOpen ? "Hide sidebar" : "Show sidebar"}
+            >
+              <ChevronLeft size={22} className={cn("transition-transform duration-300", !sidebarOpen && "rotate-180")} />
+            </button>
+            <div className="flex items-center gap-3 px-1">
+              <div className="w-9 h-9 bg-[#1a73e8] rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-md border-b-2 border-[#1557b0]">U</div>
+              <div className="flex flex-col">
+                <h1 className="text-lg font-bold leading-none text-[#202124]">UniWise</h1>
+                <span className="text-[10px] text-[#1a73e8] uppercase tracking-[0.14em] font-black mt-0.5">School Assistant</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-1">
+            {[
+              { icon: FolderOpen, label: 'Resources' },
+              { icon: Lock, label: 'Admin Access' }
+            ].map((action, i) => (
+              <button key={i} title={action.label} className="p-2.5 hover:bg-[#f1f3f4] rounded-full transition-colors text-[#5f6368]">
+                <action.icon size={22} />
+              </button>
+            ))}
+            <div className="ml-2 w-9 h-9 rounded-full bg-[#1a73e8] flex items-center justify-center text-white font-bold text-sm cursor-pointer hover:shadow-lg transition-all shadow-blue-500/20">
+              KB
+            </div>
+          </div>
+        </header>
+
+        {/* Chat Area - Bigger Font (16px) */}
+        <div className="flex-1 overflow-y-auto px-4 py-8 scrollbar-thin scrollbar-thumb-gray-200">
+          <div className="max-w-[720px] mx-auto space-y-12">
+            {activeConv.messages.map((msg) => (
+              <div key={msg.id} className={cn(
+                "flex gap-6 w-full group animate-in fade-in slide-in-from-bottom-2 duration-300",
+                msg.role === 'user' ? "flex-row-reverse" : "flex-row"
+              )}>
+                <div className={cn(
+                  "w-9 h-9 shrink-0 rounded-xl flex items-center justify-center border transition-all duration-300 shadow-sm mt-1",
+                  msg.role === 'user'
+                    ? "bg-white border-[#dadce0] text-[#1a73e8]"
+                    : "bg-[#111827] border-[#111827] text-white"
+                )}>
+                  {msg.role === 'user' ? <User size={20} /> : <Bot size={20} />}
+                </div>
+
+                <div className={cn(
+                  "flex flex-col gap-2 max-w-[calc(100%-80px)]",
+                  msg.role === 'user' ? "items-end" : "items-start"
+                )}>
+                  {msg.role === 'assistant' && (
+                    <div className="flex items-center gap-2 mb-1 px-1">
+                      <span className="text-[14px] font-bold text-[#202124]">UniWise</span>
+                      <span className="text-[11px] text-[#5f6368] font-medium opacity-50 uppercase tracking-[0.1em]">AI Model</span>
+                    </div>
+                  )}
+                  <div className={cn(
+                    "text-[16px] leading-[1.7] transition-all",
+                    msg.role === 'user'
+                      ? "text-[#202124] bg-[#f1f3f4] rounded-2xl rounded-tr-none px-6 py-4 border border-[#dadce0] shadow-sm font-medium"
+                      : "text-[#202124] prose prose-slate max-w-none px-1"
+                  )}>
+                    <div className={cn(msg.role === 'assistant' && "markdown-body")}>
+                      <ReactMarkdown>
+                        {msg.content}
+                      </ReactMarkdown>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {isGenerating && (
+              <div className="flex gap-6 w-full animate-pulse">
+                <div className="w-9 h-9 shrink-0 rounded-xl bg-[#111827] flex items-center justify-center text-white mt-1">
+                  <Bot size={20} />
+                </div>
+                <div className="flex flex-col gap-2.5 pt-3">
+                  <div className="w-32 h-4 bg-[#f1f3f4] rounded-full"></div>
+                  <div className="w-56 h-4 bg-[#f1f3f4] rounded-full"></div>
+                </div>
+              </div>
+            )}
+            <div ref={chatEndRef} className="h-8" />
+          </div>
+        </div>
+
+        {/* Composer Area - Studio Rounded Style */}
+        <div className="px-6 pb-10 pt-2 w-full shrink-0">
+          <div className="max-w-[720px] mx-auto">
+            <div className="mb-6 flex flex-wrap gap-2 justify-center opacity-80 hover:opacity-100 transition-opacity">
+              {[
+                "Latest announcement",
+                "Enrollment requirements",
+                "Contact information",
+                "Campus Map"
+              ].map((btn, i) => (
+                <button
+                  key={i}
+                  onClick={() => setInput(btn)}
+                  className="px-5 py-2.5 rounded-full border border-[#dadce0] hover:bg-[#f8f9fa] hover:border-[#1a73e8] hover:text-[#1a73e8] text-[13px] font-medium transition-all text-[#3c4043] bg-white cursor-pointer shadow-sm active:scale-95"
+                >
+                  {btn}
+                </button>
+              ))}
+            </div>
+
+            <div className={cn(
+              "relative bg-[#f0f4f9] rounded-[32px] transition-all hover:bg-[#e9eef6] focus-within:bg-white focus-within:ring-2 focus-within:ring-[#dadce0] focus-within:shadow-xl",
+              isGenerating && "opacity-50 pointer-events-none"
+            )}>
+              <div className="p-4 flex flex-col gap-3">
+                <textarea
+                  ref={inputRef}
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                      e.preventDefault();
+                      handleSend();
+                    }
+                  }}
+                  placeholder="Ask UniWise anything..."
+                  rows={1}
+                  className="w-full bg-transparent border-none outline-none resize-none pt-2 px-3 text-[16px] max-h-60 leading-relaxed text-[#202124] placeholder-[#5f6368]"
+                  style={{ height: '44px' }}
+                  onInput={(e) => {
+                    const target = e.target as HTMLTextAreaElement;
+                    target.style.height = '44px';
+                    target.style.height = `${Math.min(target.scrollHeight, 240)}px`;
+                  }}
+                />
+
+                <div className="flex items-center justify-between mt-1 px-1">
+                  <div className="flex items-center gap-1">
+                    <button className="p-3 hover:bg-[#dadce0]/50 rounded-full text-[#5f6368] transition-colors" title="Attach file">
+                      <Paperclip size={24} />
+                    </button>
+                    <button className="p-3 hover:bg-[#dadce0]/50 rounded-full text-[#5f6368] transition-colors" title="Upload image">
+                      <ImageIcon size={24} />
+                    </button>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    {input.trim() ? (
+                      <button
+                        onClick={handleSend}
+                        className="bg-[#1a73e8] text-white p-3.5 rounded-3xl hover:bg-[#1557b0] transition-all shadow-lg active:scale-90"
+                        title="Send message"
+                      >
+                        <ArrowUp size={24} strokeWidth={3} />
+                      </button>
+                    ) : (
+                      <div className="w-12 h-12 flex items-center justify-center opacity-20">
+                        <ArrowUp size={24} strokeWidth={2} className="text-[#5f6368]" />
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="mt-4 text-center text-[12px] text-[#5f6368] px-4 font-medium opacity-60">
+              UniWise leverages AI. Please cross-check important school policies.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}
